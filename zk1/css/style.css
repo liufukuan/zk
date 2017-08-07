@@ -1,0 +1,161 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  font-size: 0.14rem; }
+
+ul, li {
+  list-style: none; }
+
+body {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+html {
+  font-size: 625%; }
+
+img, div, body, html, ul, li, a {
+  -webkit-touch-callout: none; }
+
+input {
+  -webkit-appearance: none; }
+
+body, html {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+#wrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column; }
+  #wrap header {
+    width: 100%;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    text-align: center;
+    font-weight: 600;
+    font-size: 0.16rem;
+    color: #000000; }
+    #wrap header span {
+      margin-left: 20px;
+      display: inline-block; }
+      #wrap header span:nth-child(3) {
+        float: right;
+        margin-right: 20px;
+        color: #333333;
+        font-size: 0.14rem; }
+      #wrap header span:hover {
+        color: red;
+        border-bottom: 2px solid red; }
+  #wrap #box {
+    width: 100%;
+    overflow: hidden;
+    flex-grow: 1;
+    overflow-y: scroll;
+    background: #f2f2f2; }
+    #wrap #box #he {
+      width: 200%;
+      height: 100%;
+      display: flex; }
+      #wrap #box #he section {
+        width: 100%;
+        height: 100%; }
+      #wrap #box #he #li {
+        width: 100%; }
+        #wrap #box #he #li nav {
+          width: 80%;
+          height: 0.4rem;
+          margin-left: 10%;
+          background: #fff;
+          line-height: 0.4rem;
+          font-size: 0.16rem;
+          font-weight: 600;
+          text-align: center;
+          margin-top: 10px;
+          border: 2px solid #ccc;
+          border-radius: 6px;
+          display: inline-block; }
+          #wrap #box #he #li nav span {
+            display: inline-block;
+            width: 31.5%;
+            height: 0.4rem;
+            border-left: 1px solid #ccc; }
+          #wrap #box #he #li nav .en {
+            background: red;
+            color: #fff; }
+        #wrap #box #he #li ul {
+          width: 100%;
+          height: 0.4rem;
+          font-size: 0.16rem;
+          display: flex;
+          justify-content: space-between;
+          line-height: 0.4rem;
+          border-bottom: 1px solid #ccc;
+          margin-top: 0.1rem;
+          background: #fff; }
+          #wrap #box #he #li ul li {
+            padding: 0 0.1rem; }
+            #wrap #box #he #li ul li:nth-child(3) {
+              border-left: 1px solid #ccc; }
+        #wrap #box #he #li #head {
+          width: 100%;
+          height: 1rem;
+          font-size: 0.16rem;
+          position: relative; }
+          #wrap #box #he #li #head p {
+            width: 100%;
+            height: 0.2rem;
+            margin-top: 0.1rem;
+            display: flex;
+            justify-content: space-around; }
+            #wrap #box #he #li #head p span {
+              width: 60px;
+              height: 20px;
+              border: 1px solid red;
+              text-align: center;
+              line-height: 20px;
+              border-radius: 5px; }
+          #wrap #box #he #li #head #ter {
+            width: 100%;
+            font-size: 0.12rem;
+            display: flex;
+            margin-top: 10px;
+            border-bottom: 1px solid #ccc; }
+            #wrap #box #he #li #head #ter div {
+              width: 25%;
+              display: flex;
+              flex-direction: column;
+              text-align: center;
+              line-height: 0.3rem;
+              border-right: 1px solid #ccc; }
+              #wrap #box #he #li #head #ter div img {
+                width: 60px;
+                height: 10px; }
+          #wrap #box #he #li #head h6 {
+            width: 40px;
+            height: 20px;
+            background: #FF0000;
+            line-height: 20px;
+            text-align: center;
+            color: #fff;
+            position: absolute;
+            left: -2px;
+            top: -11px; }
+  #wrap footer {
+    width: 100%;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    background: #000;
+    color: #ccc;
+    display: flex;
+    justify-content: space-between; }
+    #wrap footer span {
+      padding: 0 0.2rem; }
+
+/*# sourceMappingURL=style.css.map */
